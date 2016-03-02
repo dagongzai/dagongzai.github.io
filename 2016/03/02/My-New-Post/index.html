@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   
-    <title>Hexo</title>
+    <title>My New Post | Hexo</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1">
     
     <meta name="author" content="John Doe">
@@ -85,97 +85,63 @@ var _hmt = _hmt || [];
 </div>
     </header>
     <div id="container" class="clearfix">
-      
-
-<div id="main">
-
-  <section class="post" itemscope itemprop="blogPost">
-  <article>
-    <h1 itemprop="name">
-      
-        <a href="/2016/03/02/My-New-Post/" title="My New Post" itemprop="url">
-      
-        My New Post
-      </a>
-    </h1>
+      <div id="main" class="post" itemscope itemprop="blogPost">
+	<article itemprop="articleBody"> 
+		<header class="article-info clearfix">
+  <h1 itemprop="name">
     
-     
-           <p itemprop="description" ></p>
-        
-    
-    <p class="article-more-link">
-      <time datetime="2016-03-02T02:01:59.000Z" itemprop="datePublished">2016-03-02</time>
-      
-          <a href="/2016/03/02/My-New-Post/">阅读更多&raquo;</a>
-      
-    </p>
-
-  </article>
-</section>
-
-  <section class="post" itemscope itemprop="blogPost">
-  <article>
-    <h1 itemprop="name">
-      
-        <a href="/2016/03/01/hello-world/" title="Hello World" itemprop="url">
-      
-        Hello World
-      </a>
-    </h1>
-    
-     
-           <p itemprop="description" >Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the </p>
-        
-    
-    <p class="article-more-link">
-      <time datetime="2016-03-01T14:14:56.249Z" itemprop="datePublished">2016-03-01</time>
-      
-          <a href="/2016/03/01/hello-world/">阅读更多&raquo;</a>
-      
-    </p>
-
-  </article>
-</section>
-
-
-</div>
-      <div id="asidepart">
-<div id="authorInfo">
-	
-		<div class="author-logo"></div>		
-	
-	
-	<section class="author-info">
-		
-			<p> 农村打工仔</p>
+      <a href="/2016/03/02/My-New-Post/" title="My New Post" itemprop="url">My New Post</a>
+  </h1>
+  <p class="article-time">
+    <time datetime="2016-03-02T02:01:59.000Z" itemprop="datePublished">2016-03-02</time>
+  </p>
+</header>
+	<div class="article-content">
 		
 		
-			<p>	做知识传递给更多的人。</p>
+		<div id="toc" class="toc-article">
+			<strong class="toc-title"></strong>
 		
-	</section>
-	 
-	<div class="social-font" class="clearfix">
+		</div>
 		
-		
-		
-		<a href="https://github.com/bobxie" target="_blank" title="github"></a>
-		
-		
+		  
 	</div>
+		<footer class="article-footer clearfix">
+
+
+
+
+<div class="article-share" id="share">
+
+  <div data-url="http://yoursite.com/2016/03/02/My-New-Post/" data-title="My New Post | Hexo" data-tsina="null" class="share clearfix">
+  </div>
+
 </div>
-<aside class="clearfix">
+</footer>   	       
+	</article>
+	
+<nav class="article-nav clearfix">
+ 
 
-
-  
-
-  
-
-  <div class="rsspart">
-	<a href="/Tinnypp/atom.xml## RSS address." target="_blank" title="rss">RSS 订阅</a>
+<div class="next">
+<a href="/2016/03/01/hello-world/"  title="Hello World">
+ <strong>旧一篇:</strong><br/> 
+ <span>Hello World
+</span>
+</a>
 </div>
 
-</aside>
-</div>
+</nav>
+
+	
+<section class="comment">
+	
+	<div class="ds-thread" data-title="My New Post" data-thread-key="My-New-Post" data-author-key="John Doe" data-url="http://yoursite.com/post/My-New-Post"></div>
+	
+</section>
+
+
+</div>  
     </div>
     <footer><div id="footer" >
 	<div class="copyright">
@@ -261,9 +227,97 @@ $(document).ready(function(){
 });
 </script>
 
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var ai = $('.article-content>iframe'),
+      ae = $('.article-content>embed'),
+      t  = $('#toc'),
+      h  = $('article h2')
+      ah = $('article h2'),
+      ta = $('#toc.toc-aside'),
+      o  = $('.openaside'),
+      c  = $('.closeaside');
+  if(ai.length>0){
+    ai.wrap('<div class="video-container" />');
+  };
+  if(ae.length>0){
+   ae.wrap('<div class="video-container" />');
+  };
+  if(ah.length==0){
+    t.css('display','none');
+  }else{
+
+    $(window).scroll(function(){
+      ta.css("top",Math.max(140,240-$(this).scrollTop()));
+    });
+  };
+});
+</script>
+
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var $this = $('.share'),
+      url = $this.attr('data-url'),
+      encodedUrl = encodeURIComponent(url),
+      title = $this.attr('data-title'),
+      tsina = $this.attr('data-tsina');
+  var html = [
+  '<a href="#" class="overlay" id="qrcode"></a>',
+  '<div class="qrcode clearfix"><span>扫描二维码分享到微信朋友圈</span><a class="qrclose" href="#share"></a><strong>Loading...Please wait</strong><img id="qrcode-pic" data-src="http://s.jiathis.com/qrcode.php?url=' + encodedUrl + '"/></div>',
+  '<a href="#textlogo" class="article-back-to-top" title="Top"></a>',
+  '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+  '<a href="#qrcode" class="article-share-qrcode" title="QRcode"></a>',
+  '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+  '<a href="http://service.weibo.com/share/share.php?title='+title+'&url='+encodedUrl +'&ralateUid='+ tsina +'&searchPic=true&style=number' +'" class="article-share-weibo" target="_blank" title="Weibo"></a>',
+  '<span title="Share to"></span>'
+  ].join('');
+  $this.append(html);
+  $('.article-share-qrcode').click(function(){
+    var imgSrc = $('#qrcode-pic').attr('data-src');
+    $('#qrcode-pic').attr('src', imgSrc);
+    $('#qrcode-pic').load(function(){
+        $('.qrcode strong').text(' ');
+    });
+  });
+});     
+</script>
+
+
+<script type="text/javascript">
+  var duoshuoQuery = {short_name:"tinnypp"};
+  (function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = '//static.duoshuo.com/embed.js';    //change to ds.src = '/js/embed.js'; to add useragent for duoshuo
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0] 
+    || document.getElementsByTagName('body')[0]).appendChild(ds);
+  })();
+</script> 
 
 
 
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.article-content').each(function(i){
+    $(this).find('img').each(function(){
+      if ($(this).parent().hasClass('fancybox')) return;
+      var alt = this.alt;
+      if (alt) $(this).after('<span class="caption">' + alt + '</span>');
+      $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>');
+    });
+    $(this).find('.fancybox').each(function(){
+      $(this).attr('rel', 'article' + i);
+    });
+  });
+  if($.fancybox){
+    $('.fancybox').fancybox();
+  }
+}); 
+</script>
 
 <script type="text/javascript">
   function footerPosition() {
@@ -281,4 +335,4 @@ $(document).ready(function(){
 
 
   </body>
- </html>
+</html>
