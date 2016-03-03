@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-03-03T14:28:21.646Z</updated>
+  <updated>2016-03-03T15:06:14.138Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>一个解决Eclipse android多渠道打包的问题插件之(兰贝壳儿)</title>
+    <link href="http://yoursite.com/2016/03/03/%E4%B8%80%E4%B8%AA%E8%A7%A3%E5%86%B3Eclipse-android%E5%A4%9A%E6%B8%A0%E9%81%93%E6%89%93%E5%8C%85%E7%9A%84%E9%97%AE%E9%A2%98%E6%8F%92%E4%BB%B6%E4%B9%8B-%E5%85%B0%E8%B4%9D%E5%A3%B3%E5%84%BF/"/>
+    <id>http://yoursite.com/2016/03/03/一个解决Eclipse-android多渠道打包的问题插件之-兰贝壳儿/</id>
+    <published>2016-03-03T15:04:36.000Z</published>
+    <updated>2016-03-03T15:06:14.138Z</updated>
+    
+    <content type="html">&lt;p&gt;兰贝壳儿:一个Eclipse插件，为Android开发提供了多渠道打包功能和一些工具类。&lt;br&gt;官网：&lt;a href=&quot;http://www.orchidshell.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.orchidshell.com/&lt;/a&gt;&lt;br&gt;使用方法比较简单，官网也有教程，希望能帮助更多人。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;兰贝壳儿:一个Eclipse插件，为Android开发提供了多渠道打包功能和一些工具类。&lt;br&gt;官网：&lt;a href=&quot;http://www.orchidshell.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.orchid
+    
+    </summary>
+    
+    
+      <category term="兰贝壳儿" scheme="http://yoursite.com/tags/%E5%85%B0%E8%B4%9D%E5%A3%B3%E5%84%BF/"/>
+    
+      <category term="Android多渠道打包" scheme="http://yoursite.com/tags/Android%E5%A4%9A%E6%B8%A0%E9%81%93%E6%89%93%E5%8C%85/"/>
+    
+  </entry>
   
   <entry>
     <title> 推荐一个好用的VPN，访问google学习最新的编程信息</title>
@@ -43,29 +66,23 @@
   </entry>
   
   <entry>
-    <title>Hello World</title>
-    <link href="http://yoursite.com/2016/03/01/hello-world/"/>
-    <id>http://yoursite.com/2016/03/01/hello-world/</id>
-    <published>2016-03-01T14:14:56.249Z</published>
-    <updated>2016-03-01T14:14:56.249Z</updated>
+    <title>uses-permission tag appears after application tag 解决警告</title>
+    <link href="http://yoursite.com/2015/12/14/uses-permission-tag-appears-after-application-tag-%E8%A7%A3%E5%86%B3%E8%AD%A6%E5%91%8A/"/>
+    <id>http://yoursite.com/2015/12/14/uses-permission-tag-appears-after-application-tag-解决警告/</id>
+    <published>2015-12-14T14:57:05.000Z</published>
+    <updated>2016-03-03T15:03:13.169Z</updated>
     
-    <content type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create-a-new-post&quot;&gt;&lt;a href=&quot;#Create-a-new-post&quot; class=&quot;headerlink&quot; title=&quot;Create a new post&quot;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;string&quot;&gt;&quot;My New Post&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/writing.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Writing&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;Run-server&quot;&gt;&lt;a href=&quot;#Run-server&quot; class=&quot;headerlink&quot; title=&quot;Run server&quot;&gt;&lt;/a&gt;Run server&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/server.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Server&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;Generate-static-files&quot;&gt;&lt;a href=&quot;#Generate-static-files&quot; class=&quot;headerlink&quot; title=&quot;Generate static files&quot;&gt;&lt;/a&gt;Generate static files&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo generate&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/generating.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Generating&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;Deploy-to-remote-sites&quot;&gt;&lt;a href=&quot;#Deploy-to-remote-sites&quot; class=&quot;headerlink&quot; title=&quot;Deploy to remote sites&quot;&gt;&lt;/a&gt;Deploy to remote sites&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo deploy&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/deployment.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Deployment&lt;/a&gt;&lt;/p&gt;
+    <content type="html">&lt;p&gt;今天开发遇到这样一个警告：&lt;br&gt;&lt;code&gt;&amp;lt;uses-permission&amp;gt; tag appears after &amp;lt;application&amp;gt; tag&lt;/code&gt;&lt;br&gt;最后解决方法：&lt;br&gt;&lt;code&gt;把&amp;lt;uses-permission&amp;gt; 放到 &amp;lt;application&amp;gt; 前面就可以了。&lt;/code&gt;&lt;br&gt;涨姿势了啊！&lt;/p&gt;
 </content>
     
     <summary type="html">
     
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      &lt;p&gt;今天开发遇到这样一个警告：&lt;br&gt;&lt;code&gt;&amp;lt;uses-permission&amp;gt; tag appears after &amp;lt;application&amp;gt; tag&lt;/code&gt;&lt;br&gt;最后解决方法：&lt;br&gt;&lt;code&gt;把&amp;lt;uses-permission&amp;
     
     </summary>
     
+    
+      <category term="tag appears after" scheme="http://yoursite.com/tags/tag-appears-after/"/>
     
   </entry>
   
