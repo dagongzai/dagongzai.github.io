@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>农村打工仔的博客|Android开发者</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2016-03-03T14:28:21.646Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>农村打工仔</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title> 推荐一个好用的VPN，访问google学习最新的编程信息</title>
+    <link href="http://yoursite.com/2016/03/03/%E6%8E%A8%E8%8D%90%E4%B8%80%E4%B8%AA%E5%A5%BD%E7%94%A8%E7%9A%84VPN%EF%BC%8C%E8%AE%BF%E9%97%AEgoogle%E5%AD%A6%E4%B9%A0%E6%9C%80%E6%96%B0%E7%9A%84%E7%BC%96%E7%A8%8B%E4%BF%A1%E6%81%AF/"/>
+    <id>http://yoursite.com/2016/03/03/推荐一个好用的VPN，访问google学习最新的编程信息/</id>
+    <published>2016-03-03T14:04:22.000Z</published>
+    <updated>2016-03-03T14:28:21.646Z</updated>
+    
+    <content type="html">&lt;p&gt;今天找了好久的vpn，各种的测试，最后还是发现一个比较快的，看了youtobe的的视频都不觉得卡，如果大家觉得骗人，可以先买一个月试试，3天内是可以退款的。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://gjsq.me/8417322&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;img src=&quot;http://img.blog.csdn.net/20150729101628564?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center&quot; alt=&quot;alt text&quot; title=&quot;greenVPN&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;##注册&lt;br&gt;注册地址:&lt;a href=&quot;http://gjsq.me/8417322&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://gjsq.me/8417322&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;##使用教程&lt;br&gt;具体的使用教程就不在这里详细说明了，官网直接有教程，相信懂开发的看一眼就懂了，教程:&lt;a href=&quot;http://www.gjsq.link/shiyong.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.gjsq.link/shiyong.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;###使用预览，访问google.com&lt;br&gt;&lt;img src=&quot;http://images0.cnblogs.com/blog2015/500894/201507/200945383485931.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;新手建议看完训练源码看一遍：&lt;br&gt;&lt;img src=&quot;http://images0.cnblogs.com/blog2015/500894/201507/200947073484608.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;在官网学习真的进步很快。&lt;/p&gt;
+&lt;p&gt;作者 &lt;a href=&quot;http://dagongzai.github.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;@打工仔&lt;/a&gt;    &lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今天找了好久的vpn，各种的测试，最后还是发现一个比较快的，看了youtobe的的视频都不觉得卡，如果大家觉得骗人，可以先买一个月试试，3天内是可以退款的。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://gjsq.me/8417322&quot; target=&quot;_blank&quot; re
+    
+    </summary>
+    
+    
+      <category term="vpn翻墙" scheme="http://yoursite.com/tags/vpn%E7%BF%BB%E5%A2%99/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2016/03/01/hello-world/"/>
+    <id>http://yoursite.com/2016/03/01/hello-world/</id>
+    <published>2016-03-01T14:14:56.249Z</published>
+    <updated>2016-03-01T14:14:56.249Z</updated>
+    
+    <content type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create-a-new-post&quot;&gt;&lt;a href=&quot;#Create-a-new-post&quot; class=&quot;headerlink&quot; title=&quot;Create a new post&quot;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;string&quot;&gt;&quot;My New Post&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/writing.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Writing&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Run-server&quot;&gt;&lt;a href=&quot;#Run-server&quot; class=&quot;headerlink&quot; title=&quot;Run server&quot;&gt;&lt;/a&gt;Run server&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/server.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Server&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Generate-static-files&quot;&gt;&lt;a href=&quot;#Generate-static-files&quot; class=&quot;headerlink&quot; title=&quot;Generate static files&quot;&gt;&lt;/a&gt;Generate static files&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo generate&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/generating.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Generating&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Deploy-to-remote-sites&quot;&gt;&lt;a href=&quot;#Deploy-to-remote-sites&quot; class=&quot;headerlink&quot; title=&quot;Deploy to remote sites&quot;&gt;&lt;/a&gt;Deploy to remote sites&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo deploy&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/deployment.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Deployment&lt;/a&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
